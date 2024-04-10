@@ -1,5 +1,12 @@
 {
   "changelog": [{
+      "version": "3.0.34",
+      "changes": [
+        "Estimated food used for mining is now calculated properly",
+        "Transaction sending for stop mining is now more explicit",
+        "Added a confirmation for disband fleet button"
+      ]
+    }, {
       "version": "3.0.32",
       "changes": [
         "Added a changelog to the settings menu",
