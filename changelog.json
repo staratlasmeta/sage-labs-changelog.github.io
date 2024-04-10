@@ -1,5 +1,18 @@
 {
   "changelog": [{
+      "version": "3.0.32",
+      "changes": [
+        "Added a changelog to the settings menu",
+        "Fixed flashing cargo in in the fleet tooltip",
+        "Improved fleet statuses",
+        "Removed fixed width of player fleets container",
+        "Exclude respawned fleets in hangar actions",
+        "Fixed the fleet mining view so it doesn't cause blank screens",
+        "Calculating the mined amount is now more accurate",
+        "Added a disband action to the fleet command buttons",
+        "Adjusted the basic mobile dialog size for functionality"
+      ]
+    }, {
       "version": "3.0.31",
       "changes": [
         "'Show all fleets' setting is now saved in the browser cache"
