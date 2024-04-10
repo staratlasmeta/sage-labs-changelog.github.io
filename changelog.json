@@ -24,6 +24,64 @@
         "Fixed issues with installing finished upgrades at a starbase",
         "Fixed an issue that caused the 'partially disbanded fleets' banner to not show at all"
       ]
+    },
+    {
+      "version": "3.0.25",
+      "changes": [
+        "Fixed an issue where the connection flow would not work after disconnecting",
+        "Removed unused states for crafting processes causing them to appear as 'Pending Materials'",
+        "Show the correct status for claimed crafts",
+        "Fixed an issue when switching wallets"
+      ]
+    },
+    {
+      "version": "3.0.21",
+      "changes": [
+        "Clicking on an amount in the inventory will now put it in the input field",
+        "Made the font size for some values dynamic to fit larger values better inside of the views"
+      ]
+    },
+    {
+      "version": "3.0.18",
+      "changes": [
+        "Fixed the wallet not being able to auto-connect"
+      ]
+    },
+    {
+      "version": "3.0.17",
+      "changes": [
+        "Fixed scanning on sectors with a starbase"
+      ]
+    },
+    {
+      "version": "3.0.16",
+      "changes": [
+        "Show food balance instead of toolkit balance in the sector survey overview"
+      ]
+    },
+    {
+      "version": "3.0.15",
+      "changes": [
+        "Better disconnect logic and profile updating"
+      ]
+    },
+    {
+      "version": "3.0.5",
+      "changes": [
+        "Fixed the wallet selection being stuck with a greyed out continue button"
+      ]
+    },
+    {
+      "version": "3.0.3",
+      "changes": [
+        "Fixed the terms and conditions dialog having some weird styling"
+      ]
+    },
+    {
+      "version": "3.0.0",
+      "changes": [
+        "Welcome to SAGE Labs Starbased!"
+      ]
     }
   ]
 }
