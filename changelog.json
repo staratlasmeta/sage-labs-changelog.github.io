@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.35",
+      "changes": [
+        "The fleet disband confirmation dialog now closes upon confirmation"
+      ]
+    }, {
       "version": "3.0.34",
       "changes": [
         "Estimated food used for mining is now calculated properly",
