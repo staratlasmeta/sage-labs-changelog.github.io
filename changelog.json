@@ -1,0 +1,29 @@
+{
+  "changelog": [{
+      "version": "3.0.31",
+      "changes": [
+        "'Show all fleets' setting is now saved in the browser cache"
+      ]
+    },
+    {
+      "version": "3.0.29",
+      "changes": [
+        "Fleet locations while warping should now render correctly",
+        "Adjusted the color scheme of fleets based on the largest ship in the fleet"
+      ]
+    },
+    {
+      "version": "3.0.28",
+      "changes": [
+        "Fixed a bug where the map view would snap to your CSS when hovering another fleet"
+      ]
+    },
+    {
+      "version": "3.0.26",
+      "changes": [
+        "Fixed issues with installing finished upgrades at a starbase",
+        "Fixed an issue that caused the 'partially disbanded fleets' banner to not show at all"
+      ]
+    }
+  ]
+}
