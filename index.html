@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAGE Labs Changelog</title>
+    <script>
+        window.onload = function() {
+            fetch('changelog.json')
+                .then(response => response.json())
+                .then(data => {
+                    let main = document.getElementById('changelog');
+                    data.changelog.forEach(item => {
+                        let h3 = document.createElement('h3');
+                        h3.textContent = 'Version: ' + item.version;
+                        main.appendChild(h3);
+
+                        let ul = document.createElement('ul');
+                        item.changes.forEach(change => {
+                            let li = document.createElement('li');
+                            li.textContent = change;
+                            ul.appendChild(li);
+                        });
+                        main.appendChild(ul);
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        };
+    </script>
+</head>
+<body>
+    <h1>SAGE Labs Changelog</h1>
+    <p>This site lists the latest changes to SAGE Labs. This is also used to populate the list inside the game.</p>
+    <h2>Latest changes</h2>
+    <div id="changelog">
+        <!-- Changelog will be populated here -->
+    </div>
+</body>
+</html>
