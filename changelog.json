@@ -2,7 +2,7 @@
   "changelog": [{
       "version": "3.0.38",
       "changes": [
-        "Fuel, ammo and cargo for mining and subwarping fleets is now dynamic",
+        "Fuel, ammo and cargo for mining and subwarping fleets is now visualized in real-time",
         "The settings interface has been renewed",
         "Docked fleets now show the same sector name as undocked fleets",
         "Several improvements for mobile devices",
