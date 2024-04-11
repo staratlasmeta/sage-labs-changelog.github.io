@@ -5,7 +5,8 @@
         "Fuel, ammo and cargo for mining and subwarping fleets is now dynamic",
         "The settings interface has been renewed",
         "Docked fleets now show the same sector name as undocked fleets",
-        "Several improvements for mobile devices"
+        "Several improvements for mobile devices",
+        "Mining now shows a countdown timer in the fleet status"
       ]
     }, {
       "version": "3.0.35",
