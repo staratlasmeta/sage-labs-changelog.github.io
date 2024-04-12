@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.40",
+      "changes": [
+        "Added an indicator at the right bottom of the screen to show if there's any pending transactions"
+      ]
+    }, {
       "version": "3.0.39",
       "changes": [
         "Display mining-related values and calculations for Armstrong ships should now be shown correctly"
