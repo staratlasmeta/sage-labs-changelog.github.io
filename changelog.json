@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.41",
+      "changes": [
+        "Fixed an issue where players could not start crafting recipes above Tier 1"
+      ]
+    }, {
       "version": "3.0.40",
       "changes": [
         "Added an indicator at the right bottom of the screen to show if there's any pending transactions"
