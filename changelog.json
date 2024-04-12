@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.39",
+      "changes": [
+        "Display mining-related values and calculations for Armstrong ships should now be shown correctly"
+      ]
+    }, {
       "version": "3.0.38",
       "changes": [
         "Fuel, ammo and cargo for mining and subwarping fleets is now visualized in real-time",
