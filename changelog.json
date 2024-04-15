@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.42",
+      "changes": [
+        "Fixed an issue where a character could be partially initialized which blocked players from depositing ships or resources"
+      ]
+    }, {
       "version": "3.0.41",
       "changes": [
         "Fixed an issue where players could not start crafting recipes above Tier 1"
