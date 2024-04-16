@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.45",
+      "changes": [
+        "Removed old wallet code for Solflare which should resolve some issues their users were having"
+      ]
+    }, {
       "version": "3.0.44",
       "changes": [
         "Fixed an issue where a fleet displayed the incorrect amount of ships in the fleet"
