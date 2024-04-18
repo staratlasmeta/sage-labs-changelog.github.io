@@ -1,5 +1,30 @@
 {
   "changelog": [{
+      "version": "3.0.51",
+      "changes": [
+        "Adjusted the RPC configuration"
+      ]
+    }, {
+      "version": "3.0.48",
+      "changes": [
+        "Added SDUs per scan to fleet stats table"
+      ]
+    }, {
+      "version": "3.0.46",
+      "changes": [
+        "Fleets now gather SDUs according to a new, aggregated, SDU/Scan stat",
+        "Removed global SDU per minute and fleet SDU per scan limits",
+        "Added sector logic to determine the number of SDUs that can be discovered per scan (max theoretical of 1000 SDU/scan)",
+        "Data Runner ships now receive a boost to their SDU/Scan stat",
+        "Data Runner ships do not consume Food or Toolkits when scanning",
+        "Increased scan cooldown times",
+        "Increased regeneration period for sector scan chance",
+        "Removed windfall SDU drops",
+        "Reduced Starbase Food requirements by 33%",
+        "Reduced both Food and Toolkit scaling requirements by half. (Ex: Tier 2 will be 1.5x tier 1 requirements whereas before it was 2x.",
+        "Framework 2 and Toolkits 2 now require 1 steel (reduced from 2)"
+      ]
+    }, {
       "version": "3.0.45",
       "changes": [
         "Removed old wallet code for Solflare which should resolve some issues their users were having"
