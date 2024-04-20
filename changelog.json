@@ -1,5 +1,13 @@
 {
   "changelog": [{
+      "version": "3.0.59",
+      "changes": [
+        "ATLAS Prime is now available again",
+        "Hot wallets and Vault have been added",
+        "ATLAS Prime will use the Vault's ATLAS and SOL to pay for transactions",
+        "Hot wallets offer a new way of auto-approving transactions by utilizing the ATLAS and SOL in the Vault"
+      ]
+    }, {
       "version": "3.0.51",
       "changes": [
         "Adjusted the RPC configuration"
