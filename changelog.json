@@ -1,5 +1,15 @@
 {
   "changelog": [{
+      "version": "3.0.64",
+      "changes": [
+        "Fixed an issue where players were unable to cancel crafting"
+      ]
+    }, {
+      "version": "3.0.61",
+      "changes": [
+        "Fixed an issue where players were unable to start crafting using the hot wallet"
+      ]
+    }, {
       "version": "3.0.59",
       "changes": [
         "ATLAS Prime is now available again",
