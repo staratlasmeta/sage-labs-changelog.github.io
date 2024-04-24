@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.65",
+      "changes": [
+        "Changed the SDU Starbase Upgrade to award more Loyalty Points"
+      ]
+    }, {
       "version": "3.0.64",
       "changes": [
         "Fixed an issue where players were unable to cancel crafting"
