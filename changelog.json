@@ -1,5 +1,11 @@
 {
   "changelog": [{
+      "version": "3.0.71",
+      "changes": [
+        "Fixed an issue when submitting upgrades for Starbases tier 2 and higher would return the items to the inventory",
+        "Changed the behavior of the Stop Mining button so that it doesn't get stuck on 'Awaiting Transaction' any longer"
+      ]
+    }, {
       "version": "3.0.67",
       "changes": [
         "Changed Loyalty Points redemption and ATLAS claiming from trying to use the hot wallet"
