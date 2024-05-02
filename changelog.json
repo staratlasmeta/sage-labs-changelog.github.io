@@ -1,5 +1,10 @@
 {
   "changelog": [{
+      "version": "3.0.73",
+      "changes": [
+        "When ATLAS Prime is turned on the Start Crafting button now checks the Vault balance for sufficient ATLAS instead of the wallet"
+      ]
+    }, {
       "version": "3.0.71",
       "changes": [
         "Fixed an issue when submitting upgrades for Starbases tier 2 and higher would return the items to the inventory",
