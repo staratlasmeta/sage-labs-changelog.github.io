@@ -2,7 +2,7 @@
   "changelog": [{
       "version": "3.0.73",
       "changes": [
-        "When ATLAS Prime is turned on the Start Crafting button now checks the Vault balance for sufficient ATLAS instead of the wallet"
+        "When ATLAS Prime is enabled the Start Crafting button now checks the Vault balance for sufficient ATLAS instead of the wallet"
       ]
     }, {
       "version": "3.0.71",
