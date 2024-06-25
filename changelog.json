@@ -1,36 +1,92 @@
 {
-  "changelog": [{
+  "changelog": [
+    {
+      "version": "3.0.110",
+      "changes": ["Fixed issue with meta crafting recipes appearing in other crafting sections"]
+    },
+    {
+      "version": "3.0.109",
+      "changes": [
+        "Fixed an issue with creating user redemption accounts with starbase upgrade/upkeep submissions"
+      ]
+    },
+    {
+      "version": "3.0.106",
+      "changes": ["Fixed starbase cargo permissions for hotwallet"]
+    },
+    {
+      "version": "3.0.104",
+      "changes": ["Added Meta Crafting Station to the Craft Workshop"]
+    },
+    {
+      "version": "3.0.102",
+      "changes": ["Fixed UI crash in Staff Efforts tab"]
+    },
+    {
+      "version": "3.0.96",
+      "changes": ["Fixed incorrect SDU upgrade recipe being used for starbase upgrades"]
+    },
+    {
+      "version": "3.0.91",
+      "changes": ["Fixed overview crafting times to match starbase operations view"]
+    },
+    {
+      "version": "3.0.89",
+      "changes": ["Fixed preview upgrade duration and completed crafting list calculations"]
+    },
+    {
+      "version": "3.0.86",
+      "changes": ["Ships show up in local starbase inventory again"]
+    },
+    {
+      "version": "3.0.85",
+      "changes": [
+        "Fix an issue where recipes were missing after program updates for recipes on chain"
+      ]
+    },
+    {
+      "version": "3.0.83",
+      "changes": ["Show Tier 6 recipes at Central Space Station"]
+    },
+    {
+      "version": "3.0.79",
+      "changes": [
+        "Update crafting duration to track program changes to food upkeep time",
+        "Warp buttons disable correctly now if insufficient fuel"
+      ]
+    },
+    {
       "version": "3.0.73",
       "changes": [
         "When ATLAS Prime is enabled the Start Crafting button now checks the Vault balance for sufficient ATLAS instead of the wallet"
       ]
-    }, {
+    },
+    {
       "version": "3.0.71",
       "changes": [
         "Fixed an issue when submitting upgrades for Starbases tier 2 and higher would return the items to the inventory",
         "Changed the behavior of the Stop Mining button so that it doesn't get stuck on 'Awaiting Transaction' any longer"
       ]
-    }, {
+    },
+    {
       "version": "3.0.67",
       "changes": [
         "Changed Loyalty Points redemption and ATLAS claiming from trying to use the hot wallet"
       ]
-    }, {
+    },
+    {
       "version": "3.0.65",
-      "changes": [
-        "Changed the SDU Starbase Upgrade to award more Loyalty Points"
-      ]
-    }, {
+      "changes": ["Changed the SDU Starbase Upgrade to award more Loyalty Points"]
+    },
+    {
       "version": "3.0.64",
-      "changes": [
-        "Fixed an issue where players were unable to cancel crafting"
-      ]
-    }, {
+      "changes": ["Fixed an issue where players were unable to cancel crafting"]
+    },
+    {
       "version": "3.0.61",
-      "changes": [
-        "Fixed an issue where players were unable to start crafting using the hot wallet"
-      ]
-    }, {
+      "changes": ["Fixed an issue where players were unable to start crafting using the hot wallet"]
+    },
+    {
       "version": "3.0.59",
       "changes": [
         "ATLAS Prime is now available again",
@@ -38,17 +94,16 @@
         "ATLAS Prime will use the Vault's ATLAS and SOL to pay for transactions",
         "Hot wallets offer a new way of auto-approving transactions by utilizing the ATLAS and SOL in the Vault"
       ]
-    }, {
+    },
+    {
       "version": "3.0.51",
-      "changes": [
-        "Adjusted the RPC configuration"
-      ]
-    }, {
+      "changes": ["Adjusted the RPC configuration"]
+    },
+    {
       "version": "3.0.48",
-      "changes": [
-        "Added SDUs per scan to fleet stats table"
-      ]
-    }, {
+      "changes": ["Added SDUs per scan to fleet stats table"]
+    },
+    {
       "version": "3.0.46",
       "changes": [
         "Fleets now gather SDUs according to a new, aggregated, SDU/Scan stat",
@@ -63,37 +118,42 @@
         "Reduced both Food and Toolkit scaling requirements by half. (Ex: Tier 2 will be 1.5x tier 1 requirements whereas before it was 2x.",
         "Framework 2 and Toolkits 2 now require 1 steel (reduced from 2)"
       ]
-    }, {
+    },
+    {
       "version": "3.0.45",
       "changes": [
         "Removed old wallet code for Solflare which should resolve some issues their users were having"
       ]
-    }, {
+    },
+    {
       "version": "3.0.44",
       "changes": [
         "Fixed an issue where a fleet displayed the incorrect amount of ships in the fleet"
       ]
-    }, {
+    },
+    {
       "version": "3.0.42",
       "changes": [
         "Fixed an issue where a character could be partially initialized which blocked players from depositing ships or resources"
       ]
-    }, {
+    },
+    {
       "version": "3.0.41",
-      "changes": [
-        "Fixed an issue where players could not start crafting recipes above Tier 1"
-      ]
-    }, {
+      "changes": ["Fixed an issue where players could not start crafting recipes above Tier 1"]
+    },
+    {
       "version": "3.0.40",
       "changes": [
         "Added an indicator at the right bottom of the screen to show if there's any pending transactions"
       ]
-    }, {
+    },
+    {
       "version": "3.0.39",
       "changes": [
         "Display mining-related values and calculations for Armstrong ships should now be shown correctly"
       ]
-    }, {
+    },
+    {
       "version": "3.0.38",
       "changes": [
         "Fuel, ammo and cargo for mining and subwarping fleets is now visualized in real-time",
@@ -102,19 +162,20 @@
         "Several improvements for mobile devices",
         "Mining now shows a countdown timer in the fleet status"
       ]
-    }, {
+    },
+    {
       "version": "3.0.35",
-      "changes": [
-        "The fleet disband confirmation dialog now closes upon confirmation"
-      ]
-    }, {
+      "changes": ["The fleet disband confirmation dialog now closes upon confirmation"]
+    },
+    {
       "version": "3.0.34",
       "changes": [
         "Estimated food used for mining is now calculated properly",
         "Transaction sending for stop mining is now more explicit",
         "Added a confirmation for disband fleet button"
       ]
-    }, {
+    },
+    {
       "version": "3.0.32",
       "changes": [
         "Added a changelog to the settings menu",
@@ -127,11 +188,10 @@
         "Added a disband action to the fleet command buttons",
         "Adjusted the basic mobile dialog size for functionality"
       ]
-    }, {
+    },
+    {
       "version": "3.0.31",
-      "changes": [
-        "'Show all fleets' setting is now saved in the browser cache"
-      ]
+      "changes": ["'Show all fleets' setting is now saved in the browser cache"]
     },
     {
       "version": "3.0.29",
@@ -171,45 +231,31 @@
     },
     {
       "version": "3.0.18",
-      "changes": [
-        "Fixed the wallet not being able to auto-connect"
-      ]
+      "changes": ["Fixed the wallet not being able to auto-connect"]
     },
     {
       "version": "3.0.17",
-      "changes": [
-        "Fixed scanning on sectors with a starbase"
-      ]
+      "changes": ["Fixed scanning on sectors with a starbase"]
     },
     {
       "version": "3.0.16",
-      "changes": [
-        "Show food balance instead of toolkit balance in the sector survey overview"
-      ]
+      "changes": ["Show food balance instead of toolkit balance in the sector survey overview"]
     },
     {
       "version": "3.0.15",
-      "changes": [
-        "Better disconnect logic and profile updating"
-      ]
+      "changes": ["Better disconnect logic and profile updating"]
     },
     {
       "version": "3.0.5",
-      "changes": [
-        "Fixed the wallet selection being stuck with a greyed out continue button"
-      ]
+      "changes": ["Fixed the wallet selection being stuck with a greyed out continue button"]
     },
     {
       "version": "3.0.3",
-      "changes": [
-        "Fixed the terms and conditions dialog having some weird styling"
-      ]
+      "changes": ["Fixed the terms and conditions dialog having some weird styling"]
     },
     {
       "version": "3.0.0",
-      "changes": [
-        "Welcome to SAGE Labs Starbased!"
-      ]
+      "changes": ["Welcome to SAGE Labs Starbased!"]
     }
   ]
 }
