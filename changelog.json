@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.0.112",
+      "changes": [
+        "Auto LP redemption now works with hotwallets. Permissions MUST be saved again with either upkeep or upgrade selected in order for it to work."
+      ]
+    },
+    {
       "version": "3.0.110",
       "changes": ["Fixed issue with meta crafting recipes appearing in other crafting sections"]
     },
