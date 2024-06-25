@@ -17,6 +17,10 @@
       ]
     },
     {
+      "version": "3.0.107",
+      "changes": ["LP overhaul. Automatic LP contribution to epoch upon LP earning actions."]
+    },
+    {
       "version": "3.0.106",
       "changes": ["Fixed starbase cargo permissions for hotwallet"]
     },
