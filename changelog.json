@@ -23,6 +23,10 @@
       "changes": ["Fixed UI crash in Staff Efforts tab"]
     },
     {
+      "version": "3.0.98",
+      "changes": ["Upgrade RPC cluster configuration to use Ironforge"]
+    },
+    {
       "version": "3.0.96",
       "changes": ["Fixed incorrect SDU upgrade recipe being used for starbase upgrades"]
     },
