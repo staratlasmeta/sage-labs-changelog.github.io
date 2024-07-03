@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.0.114",
+      "changes": [
+        "Fixed an issue with hotwallets where the points spending permission was incorrectly being used for vaults."
+      ]
+    },
+    {
       "version": "3.0.112",
       "changes": [
         "Auto LP redemption now works with hotwallets. Permissions MUST be saved again with either upkeep or upgrade selected in order for it to work."
