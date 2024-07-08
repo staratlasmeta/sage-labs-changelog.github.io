@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.0.118",
+      "changes": ["Manual LP redemption on the UI is no longer possible."]
+    },
+    {
       "version": "3.0.116",
       "changes": [
         "Fixed an issue where passing in the wrong profile key index could cause the transaction builder to fail."
