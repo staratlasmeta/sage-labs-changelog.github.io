@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.0.116",
+      "changes": [
+        "Fixed an issue where passing in the wrong profile key index could cause the transaction builder to fail."
+      ]
+    },
+    {
       "version": "3.0.114",
       "changes": [
         "Fixed an issue with hotwallets where the points spending permission was incorrectly being used for vaults."
