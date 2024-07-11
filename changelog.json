@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.0.120",
+      "changes": [
+        "Fixed an issue where longer crafting transactions were failing due to exceeding Solana's 64 instruction limit."
+      ]
+    },
+    {
       "version": "3.0.118",
       "changes": ["Manual LP redemption on the UI is no longer possible."]
     },
