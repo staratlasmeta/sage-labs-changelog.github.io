@@ -1,6 +1,18 @@
 {
   "changelog": [
     {
+      "version": "3.0.124",
+      "changes": [
+        "Fixed an issue in the overview/sector survey tab where scanning SDUs there did not result in any feedback.",
+        "Fixed an issue where incorrect starbase and starbase player keys were being used in the transaction if user runs into a 'Seat reservation expired' error joining a room",
+        "The LP shown in the top now reflects the daily amount redeemed."
+      ]
+    },
+    {
+      "version": "3.0.122",
+      "changes": ["Recipe usage limit data is shown now."]
+    },
+    {
       "version": "3.0.120",
       "changes": [
         "Fixed an issue where longer crafting transactions were failing due to exceeding Solana's 64 instruction limit."
