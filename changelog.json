@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.0.129",
+      "changes": ["Leftover upgrade processes at maxed out starbases can now be cancelled."]
+    },
+    {
       "version": "3.0.124",
       "changes": [
         "Fixed an issue in the overview/sector survey tab where scanning SDUs there did not result in any feedback.",
