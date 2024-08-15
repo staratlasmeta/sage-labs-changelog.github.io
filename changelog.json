@@ -1,6 +1,17 @@
 {
   "changelog": [
     {
+      "version": "3.0.135",
+      "changes": [
+        "Crew deposit/withdrawal transactions enabled with lookup table.",
+        "Fixed an issue where only 1 crew shows up on the wallet."
+      ]
+    },
+    {
+      "version": "3.0.134",
+      "changes": ["Crew Quarters view and updated Port of Entry."]
+    },
+    {
       "version": "3.0.129",
       "changes": ["Leftover upgrade processes at maxed out starbases can now be cancelled."]
     },
