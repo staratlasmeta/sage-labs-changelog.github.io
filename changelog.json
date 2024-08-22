@@ -1,6 +1,25 @@
 {
   "changelog": [
     {
+      "version": "3.0.142",
+      "changes": [
+        "Crew pagination works now.",
+        "Fixed an issue where rpc was returning invalid proofs, affecting transfers."
+      ]
+    },
+    {
+      "version": "3.0.139",
+      "changes": ["Fixed a regression in some dialog views not overflowing properly."]
+    },
+    {
+      "version": "3.0.138",
+      "changes": ["Fixed an edge case where transferring crew fails if crew record doesn't exist."]
+    },
+    {
+      "version": "3.0.136",
+      "changes": ["Fixed an issue preventing fleets from being formed due to crew count."]
+    },
+    {
       "version": "3.0.135",
       "changes": [
         "Crew deposit/withdrawal transactions enabled with lookup table.",
