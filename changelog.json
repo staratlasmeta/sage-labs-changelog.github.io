@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.0.156",
+      "changes": ["Crew Phase 2 has been implemented into the game."]
+    },
+    {
       "version": "3.0.142",
       "changes": [
         "Crew pagination works now.",
