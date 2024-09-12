@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.0.157",
+      "changes": [
+        "New Fleet Crew Management permission for hotwallets added. You must add this permission to load/unload crew."
+      ]
+    },
+    {
       "version": "3.0.156",
       "changes": ["Crew Phase 2 has been implemented into the game."]
     },
