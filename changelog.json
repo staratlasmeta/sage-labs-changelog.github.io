@@ -1,6 +1,14 @@
 {
   "changelog": [
     {
+      "version": "3.0.160",
+      "changes": [
+        "Merkle tree proofs are now validated prior to sending transactions.",
+        "Passenger tab shows remaining fleet crew capacity.",
+        "Legacy ship withdrawal crew checks have been removed."
+      ]
+    },
+    {
       "version": "3.0.157",
       "changes": [
         "New Fleet Crew Management permission for hotwallets added. You must add this permission to load/unload crew."
