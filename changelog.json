@@ -1,6 +1,13 @@
 {
   "changelog": [
     {
+      "version": "3.0.168",
+      "changes": [
+        "Migrated front-end token balance RPC calls to Starcomm V2.",
+        "Improved highlighted tile rendering performance."
+      ]
+    },
+    {
       "version": "3.0.160",
       "changes": [
         "Merkle tree proofs are now validated prior to sending transactions.",
