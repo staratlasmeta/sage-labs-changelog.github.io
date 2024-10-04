@@ -8,6 +8,12 @@
       ]
     },
     {
+      "version": "3.0.164",
+      "changes": [
+        "Rework fleet passenger handling in hangar. UI has been updated to display crew number changes more clearly."
+      ]
+    },
+    {
       "version": "3.0.160",
       "changes": [
         "Merkle tree proofs are now validated prior to sending transactions.",
