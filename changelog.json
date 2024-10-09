@@ -1,9 +1,24 @@
 {
   "changelog": [
     {
+      "version": "3.0.174",
+      "changes": [
+        "Fixed an issue where too many crafting instances overflowed in the UI.",
+        "Fixed crafting preview calculation for upkept starbases."
+      ]
+    },
+    {
+      "version": "3.0.173",
+      "changes": ["Migrate account room to Starcomm V2."]
+    },
+    {
+      "version": "3.0.169",
+      "changes": ["Fixed an regression where multiple starbase cargo pods weren't being handled."]
+    },
+    {
       "version": "3.0.168",
       "changes": [
-        "Migrated front-end token balance RPC calls to Starcomm V2.",
+        "Migrated client token balance RPC calls to Starcomm V2.",
         "Improved highlighted tile rendering performance."
       ]
     },
