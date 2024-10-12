@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.0.177",
+      "changes": [
+        "Fixed an issue where starbase balances from previously selected starbases are added to current one."
+      ]
+    },
+    {
       "version": "3.0.174",
       "changes": [
         "Fixed an issue where too many crafting instances overflowed in the UI.",
