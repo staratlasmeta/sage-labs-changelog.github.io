@@ -1,6 +1,28 @@
 {
   "changelog": [
     {
+      "version": "3.0.187",
+      "changes": [
+        "Fixed an issue where importing crew would attempt to register sage player profiles more than once."
+      ]
+    },
+    {
+      "version": "3.0.186",
+      "changes": [
+        "Fixed an issue where crafting processes with partially deposited ingredients due to dropped transactions can be continued."
+      ]
+    },
+    {
+      "version": "3.0.185",
+      "changes": ["Fixed a regression in handling a fleet's fuel/ammo stored in the cargo hold."]
+    },
+    {
+      "version": "3.0.180",
+      "changes": [
+        "Fixed a UI issue where interpolated mined cargo exceeded the fleet's cargo capacity."
+      ]
+    },
+    {
       "version": "3.0.177",
       "changes": [
         "Fixed an issue where starbase balances from previously selected starbases are added to current one."
