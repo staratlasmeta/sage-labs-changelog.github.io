@@ -1,6 +1,19 @@
 {
   "changelog": [
     {
+      "version": "3.0.193",
+      "changes": [
+        "Fixed an issue where after creating a character the interface could not find the created character."
+      ]
+    },
+    {
+      "version": "3.0.191",
+      "changes": [
+        "Added a recovery mode setting for crafting for users experiencing incomplete deposits and are unable to continue crafting.",
+        "Incomplete deposits for crafting will now display a notification dialog with more details on which resources are missing."
+      ]
+    },
+    {
       "version": "3.0.187",
       "changes": [
         "Fixed an issue where importing crew would attempt to register sage player profiles more than once."
