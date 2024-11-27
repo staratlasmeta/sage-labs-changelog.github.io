@@ -1,6 +1,19 @@
 {
   "changelog": [
     {
+      "version": "3.0.199",
+      "changes": [
+        "Fixed an issue regarding the fee amounts when starting crafting instances.",
+        "Increased the amount of SDUs you receive per successful scan by 6x (e.g., A Fimbul Airbike used to return 1 SDU per successful scan, now it returns 6)",
+        "Increased the scan cooldown by 6x (e.g., A Fimbul Airbike used to have a scan cooldown of 131 seconds, now it's 786 seconds)",
+        "Increased the food required per scan by 6x (e.g., A Fimbul Airbike used to burn 3.6 food per scan, now it burns 22)",
+        "Increased the max SDUs per sector by 6x (From 1,200 to 7,200)",
+        "Increased the SDU refill time per sector by 6x (From 600 seconds to 3,600 seconds)",
+        "Swapped the resources found at MRZ-3 with MRZ-7",
+        "Swapped the resources found at MRZ-4 with MRZ-6"
+      ]
+    },
+    {
       "version": "3.0.193",
       "changes": [
         "Fixed an issue where after creating a character the interface could not find the created character."
