@@ -1,6 +1,161 @@
 {
   "changelog": [
     {
+      "version": "3.1.59",
+      "changes": [
+        "Use a different Solana connection based on priority fee setting"
+      ]
+    },
+    {
+      "version": "3.1.56",
+      "changes": [
+        "Allow connecting while the app is loading"
+      ]
+    },
+    {
+      "version": "3.1.49",
+      "changes": [
+        "Hot wallet interactions for passengers should now work"
+      ]
+    },
+    {
+      "version": "3.1.47",
+      "changes": [
+        "Fixed priority fee for ATLAS Prime"
+      ]
+    },
+    {
+      "version": "3.1.42",
+      "changes": [
+        "Use the user's preferred priority fee"
+      ]
+    },
+    {
+      "version": "3.1.35",
+      "changes": [
+        "Fixed a discrepancy in usage of compute unit values for transactions"
+      ]
+    },
+    {
+      "version": "3.1.34",
+      "changes": [
+        "Fixed wallet fee payer using the incorrect signer"
+      ]
+    },
+    {
+      "version": "3.1.33",
+      "changes": [
+        "Fixed more issues regarding certificates for the local markets"
+      ]
+    },
+    {
+      "version": "3.1.28",
+      "changes": [
+        "Added refreshing of starbase player certificate balances to manual refresh"
+      ]
+    },
+    {
+      "version": "3.1.26",
+      "changes": [
+        "Fixed several ongoing issues regarding new wallet architecture"
+      ]
+    },
+    {
+      "version": "3.1.22",
+      "changes": [
+        "Implemented Solana wallet standards and revamped wallet architecture"
+      ]
+    },
+    {
+      "version": "3.1.20",
+      "changes": [
+        "Added a new map visual and sound preview which can be enabled in the settings"
+      ]
+    },
+    {
+      "version": "3.1.14",
+      "changes": [
+        "Fixed another issue with token accounts not being initialized properly"
+      ]
+    },
+    {
+      "version": "3.1.13",
+      "changes": [
+        "Removed duplicate redemption instructions when crafting"
+      ]
+    },
+    {
+      "version": "3.1.12",
+      "changes": [
+        "Fixed several issues regarding trading in the marketplace and token accounts not initializing properly"
+      ]
+    },
+    {
+      "version": "3.1.11",
+      "changes": [
+        "Fixed an issue regarding stale certificate balances"
+      ]
+    },
+    {
+      "version": "3.1.9",
+      "changes": [
+        "Fixed a crash the occurred when a character did not have the points accounts initialized yet"
+      ]
+    },
+    {
+      "version": "3.1.8",
+      "changes": [
+        "The refresh button in the inventory now also refreshes certificate balances"
+      ]
+    },
+    {
+      "version": "3.1.7",
+      "changes": [
+        "Fixed scrolling issues on mobile devices"
+      ]
+    },
+    {
+      "version": "3.1.6",
+      "changes": [
+        "Certificate balances should be included in the starbase inventory now"
+      ]
+    },
+    {
+      "version": "3.1.5",
+      "changes": [
+        "Fixed some small styling issues"
+      ]
+    },
+    {
+      "version": "3.1.4",
+      "changes": [
+        "Added a popup window that lists the locations in your faction where Infrastructure Contracts can potentially be sold"
+      ]
+    },
+    {
+      "version": "3.1.2",
+      "changes": [
+        "Official Star Atlas accounts are now properly displayed in the in-game marketplaces"
+      ]
+    },
+    {
+      "version": "3.0.224",
+      "changes": [
+        "Introduced Faction Infrastructure Contracts, these contracts rotate between 6 sectors per faction, with 3 active at any given time. They can be crafted and sold to their faction for a flat rate of 2 ATLAS.",
+        "MUD Infrastructure Contracts will rotate between these 6 locations: MUD-2, MUD-5, MRZ-7, MRZ-8, MRZ-9 and MRZ-12",
+        "Ustur Infrastructure Contracts will rotate between these 6 locations: UST-2, UST-5, MRZ-17, MRZ-28, MRZ-32 and MRZ-33",
+        "ONI Infrastructure Contract will rotate between these 6 locations: ONI-2, ONI-3, MRZ-26, MRZ-30, MRZ-31 and MRZ-36",
+        "The rotation of FIC buy orders will happen every 7 days",
+        "All locations currently have the same price, the intention is to change this within the first month after launch"
+      ]
+    },
+    {
+      "version": "3.0.221",
+      "changes": [
+        "Trade resources with other players in Galia's individual sectors through local markets, mini economies within the larger SAGE Labs economy! It's time to build your strategy and dominate these localized trading hubs!"
+      ]
+    },
+    {
       "version": "3.0.199",
       "changes": [
         "Fixed an issue regarding the fee amounts when starting crafting instances.",
