@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.62",
+      "changes": [
+        "We've added more priority fee options in the Settings menu"
+      ]
+    },
+    {
       "version": "3.1.59",
       "changes": [
         "Use a different Solana connection based on priority fee setting"
