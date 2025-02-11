@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.82",
+      "changes": [
+        "SAGE Labs data is now served through Starcomm v2 using Firestore"
+      ]
+    },
+    {
       "version": "3.1.68",
       "changes": [
         "Added a transaction queue sidebar to view transactions and the ability to retry them if they fail",
