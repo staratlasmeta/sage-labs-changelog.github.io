@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.87",
+      "changes": [
+        "Fixed an issue where depositing toolkits or food to a starbase was not possible"
+      ]
+    },
+    {
       "version": "3.1.86",
       "changes": [
         "Fixed an issue where crafting instances from other starbases were showing up in the crafting instances list",
