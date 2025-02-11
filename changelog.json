@@ -1,6 +1,13 @@
 {
   "changelog": [
     {
+      "version": "3.1.86",
+      "changes": [
+        "Fixed an issue where crafting instances from other starbases were showing up in the crafting instances list",
+        "Optimised data subscriptions to reduce network traffic"
+      ]
+    },
+    {
       "version": "3.1.84",
       "changes": [
         "Fixed an issue where toggling the overview would crash the page",
