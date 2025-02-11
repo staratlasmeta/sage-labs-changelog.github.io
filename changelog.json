@@ -1,6 +1,13 @@
 {
   "changelog": [
     {
+      "version": "3.1.84",
+      "changes": [
+        "Fixed an issue where toggling the overview would crash the page",
+        "Fixed an issue causing the map performance to deteriorate"
+      ]
+    },
+    {
       "version": "3.1.82",
       "changes": [
         "SAGE Labs data is now served through Starcomm v2 using Firestore"
