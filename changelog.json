@@ -1,6 +1,13 @@
 {
   "changelog": [
     {
+      "version": "3.1.89",
+      "changes": [
+        "The Stop Subwarp button should now be visible again for your own fleets while subwarping",
+        "The estimated time of arrival for a subwarping fleet should now be properly calculated"
+      ]
+    },
+    {
       "version": "3.1.88",
       "changes": [
         "Clicking a fleet currently subwarping should no longer result in a white screen"
