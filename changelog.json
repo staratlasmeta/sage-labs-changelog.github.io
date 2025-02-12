@@ -1,6 +1,14 @@
 {
   "changelog": [
     {
+      "version": "3.1.93",
+      "changes": [
+        "Optimized handling of updates to fleets to improve performance",
+        "Fixed an issue preventing the interface from loading a user's crew",
+        "The popup showing the wrong faction's locations for Infrastructure Contracts should now display the correct ones"
+      ]
+    },
+    {
       "version": "3.1.90",
       "changes": [
         "Added an option in the settings where the user can disable the loading of data for all the other fleets"
