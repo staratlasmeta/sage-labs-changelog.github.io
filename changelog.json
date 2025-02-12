@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.90",
+      "changes": [
+        "Added an option in the settings where the user can disable the loading of data for all the other fleets"
+      ]
+    },
+    {
       "version": "3.1.89",
       "changes": [
         "The Stop Subwarp button should now be visible again for your own fleets while subwarping",
