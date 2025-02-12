@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.88",
+      "changes": [
+        "Clicking a fleet currently subwarping should no longer result in a white screen"
+      ]
+    },
+    {
       "version": "3.1.87",
       "changes": [
         "Fixed an issue where depositing toolkits or food to a starbase was not possible"
