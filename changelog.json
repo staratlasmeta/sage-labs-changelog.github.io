@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.94",
+      "changes": [
+        "Improved startup performance"
+      ]
+    },
+    {
       "version": "3.1.93",
       "changes": [
         "Optimized handling of updates to fleets to improve performance",
