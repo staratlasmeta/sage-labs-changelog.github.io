@@ -1,6 +1,12 @@
 {
   "changelog": [
     {
+      "version": "3.1.96",
+      "changes": [
+        "More performance improvements"
+      ]
+    },
+    {
       "version": "3.1.94",
       "changes": [
         "Improved startup performance"
