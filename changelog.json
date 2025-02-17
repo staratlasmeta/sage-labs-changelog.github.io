@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.1.100",
+      "changes": ["Fixed an issue regarding disbanding fleets"]
+    },
+    {
       "version": "3.1.99",
       "changes": ["Fixed an issue where crew counts were not updating"]
     },
