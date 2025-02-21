@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.1.105",
+      "changes": ["A refresh button has been added to the player fleets overview which force refreshes the state of all your fleets"]
+    },
+    {
       "version": "3.1.100",
       "changes": ["Fixed an issue regarding disbanding fleets"]
     },
