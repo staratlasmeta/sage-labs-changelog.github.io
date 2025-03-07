@@ -1,6 +1,14 @@
 {
   "changelog": [
     {
+      "version": "3.1.112",
+      "changes": ["Correctly show or hide the Stop Subwarp button on rented fleets"]
+    },
+    {
+      "version": "3.1.110",
+      "changes": ["Fixed an issue where players with an older SAGE character were not be able to upgrade their character to Starbased"]
+    },
+    {
       "version": "3.1.105",
       "changes": ["A refresh button has been added to the player fleets overview which force refreshes the state of all your fleets"]
     },
