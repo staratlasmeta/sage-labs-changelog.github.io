@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.1.117",
+      "changes": ["When SAGE Labs starts, a refresh of the data for everything related to your character will now be triggered"]
+    },
+    {
       "version": "3.1.116",
       "changes": ["Using the market fill order to sell items on the marketplace should now correctly use the best buy orders"]
     },
