@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.1.116",
+      "changes": ["Using the market fill order to sell items on the marketplace should now correctly use the best buy orders"]
+    },
+    {
       "version": "3.1.112",
       "changes": ["Correctly show or hide the Stop Subwarp button on rented fleets"]
     },
