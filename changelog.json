@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.1.121",
+      "changes": ["Fixed an issue where players were unable to deposit or withdraw from their ATLAS Prime vault"]
+    },
+    {
       "version": "3.1.117",
       "changes": ["When SAGE Labs starts, a refresh of the data for everything related to your character will now be triggered"]
     },
