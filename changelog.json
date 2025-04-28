@@ -1,6 +1,10 @@
 {
   "changelog": [
     {
+      "version": "3.1.152",
+      "changes": ["Self-destructing and respawning a fleet from a non-starbase sector should now work"]
+    },
+    {
       "version": "3.1.151",
       "changes": ["Forming a fleet without crew is now possible"]
     },
