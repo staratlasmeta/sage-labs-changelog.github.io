@@ -1,6 +1,13 @@
 {
   "changelog": [
     {
+      "version": "3.1.153",
+      "changes": [
+        "'My Fleets Overview' triggers a refresh of all your fleets when it is toggled to show.",
+        "The refresh now also refreshes rental fleets"
+      ]
+    },
+    {
       "version": "3.1.152",
       "changes": ["Self-destructing and respawning a fleet from a non-starbase sector should now work"]
     },
